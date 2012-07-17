@@ -30,12 +30,6 @@ PRODUCT_COPY_FILES += \
 # Required Packages
 #
 
-# Ringtone
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Acheron.ogg \
-    ro.config.notification_sound=Adara.ogg \
-    ro.config.alarm_alert=Cesium.ogg
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.usb.default \
